@@ -1,0 +1,8 @@
+2       if asking one components or two for relative plotting
+1 48          starting state and ending state of first component (starting from 1)
+49 112        second component, ignored if first line is 1
+
+Note: S1, E1, S2, E2
+The program's logic requires S1<=E1<S2<=E2
+
+Note: bands.x MUST be running with      no_overlap = .true. 

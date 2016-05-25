@@ -1,0 +1,9 @@
+6                       # of pdos files
+17698                   # of lines in each files
+1                       which colomn to be added up, starting from 0, Colomn 0 is the energy axis
+filpdos.pdos_atm#1(Re)_wfc#1(p)
+filpdos.pdos_atm#1(Re)_wfc#2(p)
+filpdos.pdos_atm#1(Re)_wfc#3(d)
+filpdos.pdos_atm#1(Re)_wfc#4(s)
+filpdos.pdos_atm#1(Re)_wfc#5(s)
+filpdos.pdos_atm#10(S)_wfc#1(s)

@@ -1,0 +1,1 @@
+../src/final_coord.sh
