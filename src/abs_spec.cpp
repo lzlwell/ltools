@@ -103,7 +103,6 @@ int main()
   	for(i=0; i<npts; i++)
   	{
   		x = i*range/(npts-1);
-  		pts[i] = 0;
 
   		fprintf(absorbance, "%f   %f  \n", x, pts[i]*d*2.417990504024*10000/c);
   	}
