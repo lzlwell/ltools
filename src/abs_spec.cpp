@@ -104,7 +104,7 @@ int main()
   	{
   		x = i*range/(npts-1);
 
-  		fprintf(absorbance, "%f   %f  \n", x, x*pts[i]*d*2.417990504024*10000/c);
+  		fprintf(absorbance, "%f   %f  \n", x, 1.0 -  exp(-x*pts[i]*d*2.417990504024*10000*2*pi/c));
   	}
 
     fclose(absorbance);
